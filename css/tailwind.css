@@ -8,10 +8,13 @@
 }
 
 @layer base {
-
-  
+ 
   body {
     font-size: 12px;
   }
 
+}
+
+.hero {
+  @apply bg-[url('../images/mobile-image-hero-1.jpg')] sm:bg-[url('../images/desktop-image-hero-1.jpg')] bg-cover bg-no-repeat
 }
